@@ -50,4 +50,4 @@ App must be running
 
 - [/health](http://localhost:8000/health): it returns an object with the current state of the backend server.
 
-- [/asset/{asset_id}](http://localhost:8000/asset/1):it returns an object with the energy demand for the requested asset in the link. If you click the link, you can see the generated metrics for the asset with id = 1, but you can change it. The asset_id must be an integer between 1-3. If you decide not to use a digit or the digit is not found as an asset id, it will raise an exception and a different HTTP code to notify the user.
+- [/asset/{asset_id}](http://localhost:8000/asset/1): it returns an object with the energy demand for the requested asset in the link. If you click the link, you can see the generated metrics for the asset with id = 1, but you can change it. The asset_id must be an integer between 1-3. If you decide not to use a digit or the digit is not found as an asset id, it will raise an exception and a different HTTP code to notify the user.
